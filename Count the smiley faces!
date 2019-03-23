@@ -1,0 +1,12 @@
+function countSmileys(arr) {
+  let total = 0;
+  for (let i in arr) {
+    if ((arr[i].includes(";") || arr[i].includes(":")) && (arr[i][1] === "-" ||
+        arr[i][1] === "~" || arr[i][1] === "D" || arr[i][1] === ")")) {
+        if ((arr[i][2] === ")" || arr[i][2] === "D" ||  arr[i][2] === undefined)) {
+        total += 1;
+      }
+    }
+  }
+  return total;
+}
