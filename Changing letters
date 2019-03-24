@@ -3,3 +3,10 @@ function swap(st){
     return i.toUpperCase();
   });
 }
+
+
+/// Test case
+Test.describe("Convert vowels to uppercase in a string", _=>{
+  Test.assertEquals(swap("HelloWorld!"),"HEllOWOrld!")
+  Test.assertEquals(swap("First Test Case"),"FIrst TEst CAsE")
+});
