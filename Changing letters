@@ -1,0 +1,5 @@
+function swap(st){
+  return st.replace(/[aeiou]/g, function(i) {
+    return i.toUpperCase();
+  });
+}
