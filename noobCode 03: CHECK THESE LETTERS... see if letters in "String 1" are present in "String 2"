@@ -1,0 +1,3 @@
+function letterCheck(arr) {
+ return arr[0].split('').map(i=> arr[1].split('').includes(i))? true : false;
+}
