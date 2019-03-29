@@ -10,3 +10,14 @@ function countSmileys(arr) {
   }
   return total;
 }
+
+
+Test Case:
+Test.describe("Count Smileys", function() {
+  it("", _ => {
+    Test.assertEquals(countSmileys([':P']), 0);
+    Test.assertEquals(countSmileys([';]', ':D', ';o', ':$', ';-D']), 2);
+    Test.assertEquals(countSmileys([':D',':~)',';~D',':)']), 4);
+    Test.assertEquals(countSmileys([':)',':(',':O',':;']), 1);
+  });
+});
