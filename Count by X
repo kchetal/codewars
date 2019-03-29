@@ -5,3 +5,10 @@ function countBy(x, n) {
   }
   return z;
 }
+
+
+Test case: 
+Test.assertSimilar(countBy(1,5), [1,2,3,4,5], "Array does not match")
+Test.assertSimilar(countBy(2,5), [2,4,6,8,10], "Array does not match")
+Test.assertSimilar(countBy(3,5), [3,6,9,12,15], "Array does not match")
+Test.assertSimilar(countBy(6,4), [6,12,18,24], "Array does not match")
