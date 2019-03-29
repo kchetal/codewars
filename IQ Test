@@ -1,0 +1,10 @@
+function iqTest(numbers){
+  let results = '';
+  let newNumbers = numbers.split(' ');
+  for(let i = 0; i < newNumbers.length; i++) {
+    if (parseInt(i)%2 != 0) { 
+    results = i;
+    }
+  }
+  return results;
+}
