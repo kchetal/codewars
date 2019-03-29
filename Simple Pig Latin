@@ -1,0 +1,3 @@
+function pigIt(str){
+  return str.split("").reverse().join('').split(" ").reverse().map(i => i + "ay").toString().replace(/,/g, ' ');
+}
